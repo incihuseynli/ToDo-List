@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TODO LIST APP</title>
+    <!-- SweetAlert CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/sweetalert2@11.7.27/dist/sweetalert2.min.css"
+    />
+    <!-- Custom CSS File -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body class="body">
+    <div class="content">
+      <div class="logo">
+        <img src="./assets/images/Logo.png" alt="" />
+        <h1 class="slogan">Plan and do it</h1>
+      </div>
+      <div class="container">
+        <div class="addContainer">
+          <h4 class="title">Add New ToDo</h4>
+          <form class="addTodo">
+            <input
+              type="text"
+              id="nameInput"
+              placeholder="What is your next to do?"
+            />
+            <textarea
+              id="descriptionInput"
+              placeholder="Write details in here.."
+            ></textarea>
+            <input type="submit" class="btn" value="Add" />
+          </form>
+          <!-- Info Alert -->
+          <div class="info alert">
+            <h1>New todo added!</h1>
+            <button class="btn"><a href="#">Got it!</a></button>
+          </div>
+          <!-- Error ALert -->
+          <div class="error alert">
+            <img src="./assets/icons/icon-park-outline_attention.svg" />
+            <p class="info-text">You can’t save empty cells!</p>
+            <button class="btn"><a href="#">Okay</a></button>
+          </div>
+        </div>
+        <div class="listContainer">
+          <h4 class="title">Your Todo list</h4>
+          <ul class="listTodo"></ul>
+        </div>
+      </div>
+      <!-- Success Alert -->
+      <div class="success alert">
+        <img src="./assets/images/mascot1.png" class="mascot" />
+        <h1>Well done!</h1>
+        <p class="info-text">You finished one of your todo!</p>
+        <button class="btn"><a href="#">Go back</a></button>
+      </div>
+      <div class="footer">
+        <p>&copy 2023.Designed and coded by <a href="">Inci Hüseynli</a></p>
+      </div>
+    </div>
+
+    <!-- Loader -->
+    <div class="loader">
+      <img src="./assets/images/Sloagan.png" alt="" />
+      <div class="animated bounce">
+        <img src="./assets/images/mascot2.png" alt="" />
+      </div>
+    </div>
+
+    <!-- SweetAlert CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.7.27/dist/sweetalert2.all.min.js"></script>
+    <!-- AXIOS CDN -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.5.0/axios.min.js"
+      integrity="sha512-aoTNnqZcT8B4AmeCFmiSnDlc4Nj/KPaZyB5G7JnOnUEkdNpCZs1LCankiYi01sLTyWy+m2P+W4XM+BuQ3Q4/Dg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <!-- Custom JavaScript File -->
+    <script src="./assets/js/main.js"></script>
+  </body>
+</html>

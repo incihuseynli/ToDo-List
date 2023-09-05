@@ -1,0 +1,94 @@
+{
+  "todos": [
+    {
+      "id": 1,
+      "name": "Learn HTML",
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+      "isCompleted": true
+    },
+    {
+      "id": 2,
+      "name": "Learn CSS3",
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+      "isCompleted": true
+    },
+    {
+      "id": 3,
+      "name": "Learn JavaScript",
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+      "isCompleted": true
+    },
+    {
+      "id": 4,
+      "name": "Learn React JS",
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+      "isCompleted": false
+    },
+    {
+      "id": 5,
+      "name": "Studingg",
+      "description": "Lorem ipsum dolor sit it amet consectetur, adipisicing elit...",
+      "isCompleted": false
+    },
+    {
+      "id": 6,
+      "name": "Reading",
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+      "isCompleted": false
+    },
+    {
+      "id": 7,
+      "name": "Reading",
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+      "isCompleted": false
+    },
+    {
+      "id": 9,
+      "name": "Reading",
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+      "isCompleted": false
+    },
+    {
+      "id": 10,
+      "name": "Reading",
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+      "isCompleted": false
+    },
+    {
+      "id": 11,
+      "name": "Reading",
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+      "isCompleted": false
+    },
+    {
+      "id": 12,
+      "name": "Reading",
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+      "isCompleted": false
+    },
+    {
+      "name": "Lorem",
+      "description": "fdgfdgfd",
+      "isComplated": false,
+      "id": 13
+    },
+    {
+      "name": "fsdfdsf",
+      "description": "fdsfdf",
+      "isComplated": false,
+      "id": 14
+    },
+    {
+      "name": "dsadsa",
+      "description": "dsasds",
+      "isComplated": false,
+      "id": 15
+    },
+    {
+      "name": "dsasdsa",
+      "description": "sadsadsad",
+      "isComplated": false,
+      "id": 16
+    }
+  ]
+}
